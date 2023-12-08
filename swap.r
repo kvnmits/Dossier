@@ -27,6 +27,4 @@ T <- "ii"
 
 
 
-t<-france
-
-
+print("Je te fais confiance")
