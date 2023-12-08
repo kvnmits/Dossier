@@ -3,7 +3,7 @@ library(ggplot2)
 
 # Sample data
 data <- data.frame(
-  x = 1:10,
+  x = 1:100,
   y = c(2, 4, 3, 6, 5, 8, 7, 10, 9, 12)
 )
 
@@ -14,3 +14,5 @@ ggplot(data, aes(x = x, y = y)) +
   ggtitle("Simple Scatter Plot") +
   xlab("X Axis Label") +
   ylab("Y Axis Label")
+
+T <- "ii"
